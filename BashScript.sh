@@ -6,7 +6,7 @@ az account set --subscription "Terraform-Deployment"
 RESOURCE_GROUP_NAME="demo-infra-rg"
 STORAGE_ACCOUNT_NAME="demostg"
 CONTAINER_NAME="democontainer"
-STATE_FILE="terraform.state1"
+STATE_FILE="demo.state"
 
 # Create resource group
 az group create --name $RESOURCE_GROUP_NAME --location koreacentral
